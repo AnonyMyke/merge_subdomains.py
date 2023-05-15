@@ -53,3 +53,6 @@ print(merged_list)
 
 example_subdomains = get_subdomains_for_domain("example.com", merged_list)
 print(example_subdomains)
+
+#Note that the merge_subdomains() function now appends the TLD to the domain name before adding it to the merged_subdomains
+    #dictionary to avoid merging subdomains with different TLDs.
